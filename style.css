@@ -13,7 +13,6 @@ body {
   justify-content: space-around;
   align-items: center;
   position: sticky;
-  top: 10px;
 }
 
 .leftbar {
@@ -44,18 +43,29 @@ body {
 }
 
 #scrollingtext {
+  height: 40px;
   width: 100%;
   font-size: 30px;
   font-weight: 900;
   padding-top: 100px;
   color: white;
   background-color: rgba(44, 44, 44, 0.712);
-  display: flex;
-  flex-direction: column;
   z-index: 10;
   position: absolute;
   bottom: 0px;
-  justify-content: flex-start;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+}
+
+#starshiptext {
+  display: flex;
+  margin-left: 25px;
+  margin-bottom: 20px;
+  padding-bottom: 50px;
 }
 
 #watchbutton {
@@ -65,9 +75,10 @@ body {
   width: 200px;
   background-color: whitesmoke;
   border-radius: 3px;
-  right: 100px;
   display: flex;
-align-items: flex-end;
+  align-items: flex-end;
+  margin-right: 25px;
+  margin-bottom: 30px;
 }
 
 .threebuttons {
@@ -113,29 +124,52 @@ align-items: flex-end;
 }
 
 #reusability {
+  font-size: 18px;
+  font-weight: bold;
   height: 260px;
   width: 300px;
   border: 1px solid whitesmoke;
   box-shadow: 3px 3px 5px 2px lightgray;
-  
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+  align-items: center;
+  align-content: center;
 }
 
 #commercialcrew {
+  font-size: 18px;
+  font-weight: bold;
   height: 260px;
   width: 300px;
   border: 1px solid whitesmoke;
   box-shadow: 3px 3px 5px 2px lightgray;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+  align-items: center;
+  align-content: center;
 }
 
 #multiplanetary {
+  font-size: 18px;
+  font-weight: bold;
   height: 260px;
   width: 300px;
   border: 1px solid whitesmoke;
   box-shadow: 3px 3px 5px 2px lightgray;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+  align-items: center;
+  align-content: center;
 }
 
 #footer {
-  margin-top: 1500px;
+  margin-top: 300px;
   color: white;
   height: 75px;
   width: 100%;
