@@ -1,0 +1,144 @@
+body {
+  font-family: "Cabin", sans-serif;
+}
+
+#spacebar {
+  font-size: 0.9em;
+  height: 75px;
+  width: 100%;
+  background-color: black;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  position: sticky;
+  top: 10px;
+}
+
+.leftbar {
+  width: 40%;
+  margin-left: 15px;
+  margin-right: 20px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.rightbar {
+  font-size: 12px;
+  font-weight: bold;
+  color: rgb(158, 158, 158);
+  width: 40%;
+  display: flex;
+  justify-content: space-around;
+}
+
+#backgroundpic {
+  position: relative;
+}
+
+#bg {
+  height: auto;
+  width: 100%;
+  z-index: -1;
+}
+
+#scrollingtext {
+  width: 100%;
+  font-size: 30px;
+  font-weight: 900;
+  padding-top: 100px;
+  color: white;
+  background-color: rgba(44, 44, 44, 0.712);
+  display: flex;
+  flex-direction: column;
+  z-index: 10;
+  position: absolute;
+  bottom: 0px;
+  justify-content: flex-start;
+}
+
+#watchbutton {
+  font-size: 10px;
+  color: black;
+  height: 30px;
+  width: 200px;
+  background-color: whitesmoke;
+  border-radius: 3px;
+  right: 100px;
+  display: flex;
+align-items: flex-end;
+}
+
+.threebuttons {
+  font-size: 12px;
+  padding-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-content: space-between;
+  background-color: rgb(31, 29, 29);
+}
+
+#starship {
+  color: white;
+  margin: 10px 30px;
+}
+#smallsat {
+  color: white;
+  margin-top: 10px;
+  margin-right: 30px;
+}
+#dragon {
+  color: white;
+  margin-top: 10px;
+  margin-right: 30px;
+}
+
+#graybar {
+  color: black;
+  text-align: center;
+  padding-top: 50px;
+  background-color: rgba(202, 193, 193, 0.3);
+}
+
+#whiteboxes {
+  width: 100vw;
+  height: 300px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+}
+
+#reusability {
+  height: 260px;
+  width: 300px;
+  border: 1px solid whitesmoke;
+  box-shadow: 3px 3px 5px 2px lightgray;
+  
+}
+
+#commercialcrew {
+  height: 260px;
+  width: 300px;
+  border: 1px solid whitesmoke;
+  box-shadow: 3px 3px 5px 2px lightgray;
+}
+
+#multiplanetary {
+  height: 260px;
+  width: 300px;
+  border: 1px solid whitesmoke;
+  box-shadow: 3px 3px 5px 2px lightgray;
+}
+
+#footer {
+  margin-top: 1500px;
+  color: white;
+  height: 75px;
+  width: 100%;
+  font-size: 12px;
+  background: black;
+}
